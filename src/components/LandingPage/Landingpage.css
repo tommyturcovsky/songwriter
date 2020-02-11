@@ -1,0 +1,176 @@
+/**
+Colors to use,
+Black: #020202
+Dark Green: #0D2818
+Medium Green: #04471C
+Medium Light Green: #058C42
+Bright Green: #16DB65
+Pale Green: #a4b69f;
+*/
+
+.grid-container-landing {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 100%;
+    min-height: 100%;
+    height: 100%;
+    width: 100%;
+}
+
+.header-landing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+    background-color: #a4b69f;
+}
+
+.landing-logo-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: auto;
+    margin-bottom: 10px;
+    margin-left: 8px;
+    width: 100%;
+}
+
+
+
+.logo-background {
+    background-color: #ffffff;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    border: solid 5px;
+    border-radius: 10px;
+}
+
+.landing-logo{
+    font-family: Apple Chancery, cursive;
+    margin-left: 5px;
+    margin-bottom: 0px;
+}
+
+/**right side of header**/
+.landing-logo-container-right {
+    justify-content: space-around;
+}
+
+.button-container {
+    background-color: #0D2818;
+    margin-bottom: 13px;
+    margin-top: auto;
+    border-radius: 15px;
+    border: solid 2px;
+    cursor: pointer;
+}
+
+.landing-button-font {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 13pt;
+    color: #ffffff;
+}
+
+.landing-username-pw-input {
+    width: 60px;
+    height: 30px;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+
+.body-landing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+.footer-landing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 75px;
+    background-color: #a4b69f;
+}
+
+.socials-icon-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: none;
+    width: 200px;
+    height: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 15px;
+}
+
+/*** Modal Overlay ***/
+
+/** Sign Up **/
+.sign-up-form {
+    display: flex;
+    flex-direction: column;
+    height: 550px;
+    background: #a4b69f;
+    justify-content: space-between;
+}
+
+.add-profile-pic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 140px;
+    height: 140px;
+    background-color: #aaaaaa;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 5px;
+    border-radius: 10px;
+    padding-top: 5px;
+}
+
+.add-profile-pic-text {
+    text-align: center;
+}
+
+.input-signup-entry {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 40px;
+}
+
+.input-box {
+    height: 50%;
+}
+
+.input-signup-bio {
+    height: 80px;
+}
+
+.bio-input {
+    display: table-cell;
+    width: 100%;
+    height: 100%;
+    resize: none;
+    box-sizing: border-box;
+    border: none;
+    font-size: 10pt;
+}
+
+.navigation-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #a4b69f;
+}
+
+.full-screen {
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+}

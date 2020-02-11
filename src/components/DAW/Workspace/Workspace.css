@@ -1,0 +1,229 @@
+/**
+Colors to use,
+Black: #020202
+Dark Green: #0D2818
+Medium Green: #04471C
+Medium Light Green: #058C42
+Bright Green: #16DB65
+Pale Green: #a4b69f;
+*/
+
+.the-workspace-container {
+  height: 100%;
+}
+
+.grid-container-workspace {
+    display: grid;
+    grid-template-rows: auto auto auto 1fr;
+    min-height: 100%;
+    height: 175px;
+    width: 100%;
+  }
+
+
+.workspace-vertical-divider {
+  display: grid;
+  height: 50px;
+  grid-template-columns: auto 1fr;
+}
+
+.workspace-vertical-divider-tracks {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: 1fr;
+  border-top: solid 2px;
+}
+
+.newTrack {
+  width: 170px;
+  height: 50px;
+  border-right: solid 2px;
+  display: flex;
+  border-bottom: solid 1px;
+  cursor: pointer;
+}
+
+.measureRuler {
+  background-color: #a4b69f;
+  border-top: solid 2px;
+}
+
+
+.lyrics {
+  width: 170px;
+  border-right: solid 2px;
+  height: 50px;
+  border-top: solid 2px;
+}
+
+.highlightRuler {
+  border-top: solid 2px;
+}
+
+.extra-color1 {
+  background-color: #6b7967;
+}
+
+.extra-color2 {
+  background-color: #a4b69f;
+}
+
+.commentTrack {
+  width: 170px;
+  border-right: solid 2px;
+  height: 50px;
+  border-top: solid 2px;
+}
+
+.track {
+  background-color: #646464;
+  width: 170px;
+  border-right: solid 2px;
+  display: flex;
+}
+
+.audioFiles {
+  background-color: #ffffff;
+}
+
+.workspace-add {
+  margin-top: 8px;
+  margin-bottom: 6px;
+  margin-left: 6px;
+  border-radius: 25%;
+  height: 18px;
+  width: 130px;
+  background-color: #a4b69f;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px
+}
+
+.workspace-add-text {
+  margin: 0px;
+  font-size: 15pt;
+}
+
+.no-waveform {
+  background-color: #d6d6d6;
+  width: 100%;
+  height: 128px;
+  border-bottom: solid 2px;
+}
+
+.waveformholder {
+  height: 100%;
+  width: 70%;
+  background-color: #a0ccff;
+}
+
+/** Ruler Section **/
+
+.ruler, .ruler li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: inline-block;
+}
+
+/* IE6-7 Fix */
+.ruler, .ruler li {
+  *display: inline;
+}
+.ruler {
+  background: #a4b69f;
+  box-shadow: 0 -1px 1em #a4b69f(60, 60%, 84%) inset;
+  border-radius: 2px;
+  border: 1px solid #a4b69f;
+  color: #646464;
+  margin: 0;
+  height: 3em;
+  white-space: nowrap;
+}
+.ruler li {
+  padding-left: 3.5cm;
+  width: 2em;
+  margin: .64em -1em -.64em;
+  text-align: center;
+  position: relative;
+  text-shadow: 1px 1px #a4b69f(60, 60%, 84%);
+}
+.ruler li:before {
+  content: '';
+  position: absolute;
+  border-left: 1px solid #646464;
+  height: .64em;
+  top: -.64em;
+  right: 1em;
+}
+
+/* The Pop-ups */
+
+.template-select {
+  position: absolute;
+  left: 20%;
+  right: 20%;
+  top: 5%;
+  bottom: 25%;
+  background: white;
+  padding: 2%;
+
+  display: flex;
+  flex-direction: column;
+  height: 550px;
+  justify-content: space-between;
+}
+
+.pop-up-title-container {
+
+}
+
+.pop-up-title {
+  justify-content: center;
+  font-size: 18pt;
+}
+
+.template-selection-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.template-selection {
+  display: flex;
+  flex-direction: column;
+}
+
+.template-selection-logo {
+  margin: 5px;
+  border: solid 1px;
+  height: 45%;
+  cursor: pointer;
+  background-color: #a4b69f;
+}
+
+.template-selection-title-container {
+  height: 10%
+}
+
+.template-selection-title {
+  margin: 0px;
+}
+
+.open-existing-project {
+  height: 100px;
+  margin: 20px;
+  border: solid 1px;
+  font-size: 12pt;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #a4b69f;
+}
+
+.go-triangle-down {
+  margin-top: auto;
+  margin-bottom: auto;
+}

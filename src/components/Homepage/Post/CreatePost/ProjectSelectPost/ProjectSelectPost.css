@@ -1,0 +1,73 @@
+.select-project-container {
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    top: 5%;
+    bottom: 25%;
+    background: white;
+    padding: 2%;
+
+    height: 550px;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.project-selection-title-container {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    border-bottom: solid 1px;
+}
+
+.project-selection-container {
+    height: 100%;
+}
+
+.attach-project-container {
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.attach {
+    width: 170px;
+    height: 50px;
+    display: flex;
+    cursor: pointer;
+}
+
+.attach-add {
+    margin-top: 8px;
+    margin-bottom: 6px;
+    margin-left: 6px;
+    border-radius: 25%;
+    height: 18px;
+    width: 130px;
+    background-color: #a4b69f;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px
+}
+
+.individual-project-title {
+    margin-bottom: 1px;
+}
+
+.albumArtProjectSelect {
+    order: 1;
+    border: 5px solid;
+    padding: 30px;
+    background-color: #ffffff;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.albumArt-background {
+    background-color: #a4b69f;
+}
+
+.project-selection-exit {
+    cursor: pointer;
+}

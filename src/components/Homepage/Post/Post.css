@@ -1,0 +1,28 @@
+ /**
+Colors to use,
+Black: #020202
+Dark Green: #0D2818
+Medium Green: #04471C
+Medium Light Green: #058C42
+Bright Green: #16DB65
+Pale Green: #a4b69f;
+*/
+
+/* Tag Level */
+
+/* Automatically fit size of div */
+img {
+  /* background-color: #fc3103; */
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.post-framework {
+    background-color: #a4b69f;
+    margin-left : 10%;
+    margin-right: 10%;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    height: 100%;
+    border: 1px groove;
+  }

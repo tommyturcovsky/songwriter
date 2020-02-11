@@ -1,0 +1,81 @@
+/**
+Colors to use,
+Black: #020202
+Dark Green: #0D2818
+Medium Green: #04471C
+Medium Light Green: #058C42
+Bright Green: #16DB65
+Pale Green: #a4b69f;
+*/
+
+.grid-container-track {
+    display: grid;
+    grid-template-rows: 26px auto auto;
+    background-color: #8cb2dd;
+    height: 120px;
+    width: 170px;
+    border-bottom: solid 2px;
+    padding: 4px;
+}
+
+.title-arm-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 20px;
+}
+
+.track-title {
+    display: table-cell;
+    width: 90px;
+    height: 22px;
+    resize: none;
+    box-sizing: border-box;
+    border: solid 1px;
+    font-size: 15px;
+}
+
+.record-arm-box {
+    border: solid 1px;
+    height: 20px;
+    width: 20px;
+    padding-top: 1px;
+    border-radius: 50%;
+}
+
+.record-arm-disarmed {
+    background-color: #797979;
+}
+.record-arm-armed {
+    background-color: #d61f1f;
+}
+
+.audio-input {
+    background-color: #ffffff;
+    height: 20px;
+    border: solid 1px;
+    font-size: 10pt;
+}
+
+.comment-track {
+    width: 160px;
+    height: 70px;
+    margin-top: 5px;
+    background-color: #ffffff;
+}
+
+.comment-track-title {
+    font-size: 10pt;
+    margin: 0px;
+    border-bottom: solid 1px;
+}
+
+.comment-text-input {
+    display: table-cell;
+    width: 160px;
+    height: 50px;
+    resize: none;
+    box-sizing: border-box;
+    border: none;
+    font-size: 8pt;
+}

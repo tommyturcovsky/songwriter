@@ -1,0 +1,17 @@
+/**
+Colors to use,
+Black: #020202
+Dark Green: #0D2818
+Medium Green: #04471C
+Medium Light Green: #058C42
+Bright Green: #16DB65
+Pale Green: #a4b69f;
+*/
+
+.flex-container-profileBody {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    align-items: stretch;
+  }

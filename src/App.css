@@ -1,0 +1,41 @@
+/**
+Colors to use,
+Black: #020202
+Dark Green: #0D2818
+Medium Green: #04471C
+Medium Light Green: #058C42
+Bright Green: #16DB65
+Pale Green: #a4b69f;
+*/
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.grid-container {
+  min-height: 100%;
+  height: 100%;
+  width: 100%;
+}
+.grid-container-app {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 100%;
+  min-height: 100%;
+  height: 100%;
+  width: 100%;
+}
+
+.hide {
+  display: none;
+}
+
+.hide-logged-in {
+  display: none;
+}
+
+.show{
+  display: block;
+}

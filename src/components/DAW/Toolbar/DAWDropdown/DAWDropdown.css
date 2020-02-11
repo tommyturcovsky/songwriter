@@ -1,0 +1,36 @@
+/**
+Colors to use,
+Black: #020202
+Dark Green: #0D2818
+Medium Green: #04471C
+Medium Light Green: #058C42
+Bright Green: #16DB65
+Pale Green: #a4b69f;
+*/
+
+.dd-wrapper {
+    margin-left: 1px;
+    margin-top: 1px;
+}
+
+.dd-header {
+    background-color: #ffffff;
+    border: solid 2px;
+}
+
+.dd-header-title {
+
+}
+
+.dd-list {
+    margin: 0px;
+    list-style-type: none;
+    background-color: #ffffff;
+    border: solid 2px;
+    justify-content: left;
+    padding: 0px;
+}
+
+.dd-list-item {
+    border: groove 1px;
+}

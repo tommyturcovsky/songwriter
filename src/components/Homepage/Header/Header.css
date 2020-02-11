@@ -1,0 +1,54 @@
+/**
+Colors to use,
+Black: #020202
+Dark Green: #0D2818
+Medium Green: #04471C
+Medium Light Green: #058C42
+Bright Green: #16DB65
+Pale Green: #a4b69f;
+*/
+
+/* Tag Level */
+
+/* Automatically fit size of div */
+img {
+  /* background-color: #fc3103; */
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* Class Level */
+.grid-container-header {
+  display: grid;
+  background-color: #a4b69f;
+  grid-template-columns: auto 200px auto;
+  padding: 5px;
+  max-height: 100%;
+}
+
+.grid-item-header {
+  /* background-color: #0D2818; */
+  font-size: 30px;
+  max-height: 75px;
+  max-width: 100%;
+}
+
+.img-button {
+  max-height: 50px;
+  max-width: 50px;
+}
+
+.direct-message {
+  max-height: 50px;
+  max-width: 50px;
+  float: right;
+  top: 50%;
+  -ms-transform: translateY(50%);
+  transform: translateY(10%);
+}
+
+.logo {
+  color: #020202;
+  text-align: center;
+  font-size: 20px;
+}

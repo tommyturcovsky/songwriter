@@ -1,0 +1,52 @@
+/**
+Colors to use,
+Black: #020202
+Dark Green: #0D2818
+Medium Green: #04471C
+Medium Light Green: #058C42
+Bright Green: #16DB65
+Pale Green: #a4b69f;
+*/
+
+.sign-up-inner-inner-box {
+    width: 90%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sign-up-title {
+    text-shadow: 2px 1px #aaaaaa;
+    font-weight: 700;
+}
+
+.genre-selections-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 15px;
+    grid-gap: 15px;
+}
+
+.genre-button {
+    text-align: center;
+    padding: 15px 32px;
+    font-weight: 400;
+    font-size: 16pt;
+    cursor: pointer;
+    background-color: #fdfdfd;
+    font-style: italic;
+    box-shadow: 5px 4px;
+}
+
+.start-making-music-button {
+    margin-right: 8px;
+    box-shadow: none;
+    font-style: normal;
+    border: solid 2px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.selected-genre {
+    background-color: #9c9c9c;
+}

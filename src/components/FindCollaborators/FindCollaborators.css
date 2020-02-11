@@ -1,0 +1,52 @@
+/**
+Colors to use,
+Black: #020202
+Dark Green: #0D2818
+Medium Green: #04471C
+Medium Light Green: #058C42
+Bright Green: #16DB65
+Pale Green: #a4b69f;
+*/
+
+.sign-up-inner-box {
+    width:66.7%;
+    height:80vh;
+    margin: auto;
+    background-size:cover;
+    overflow:hidden;
+    background-color: #a4b69f;
+    border: solid 10px;
+    border-color: #ffffff;
+    align-content: center;
+    box-shadow: 10px 8px;
+}
+
+.add-collaborators-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.add-collaborator-button {
+    margin-top: 10%;
+    overflow: hidden;
+}
+
+.add-collaborator-button-inner {
+    border: solid 5px;
+    border-color: #ffffff;
+    padding: 10px;
+    margin-left: 160px;
+    margin-right: 160px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.navigation-button {
+    cursor: pointer;
+}
