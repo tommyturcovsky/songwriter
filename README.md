@@ -2,7 +2,7 @@
 ## Check out the High-Fidelity prototype here
 https://song-writer.herokuapp.com/
 
-## UI/UX Research *(The Final Paper is under Research directory)*
+## UI/UX Research *(The Final Research Paper is under Research directory)*
 For this project, I did a series of different research methods to make an social media application for directed towards songwriters to discover each other and promote collaboration online.
 
 I performed those methods in the following order: 
