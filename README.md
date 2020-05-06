@@ -11,7 +11,7 @@ I performed those methods in the following order:
 3. Lo-Fidelity Prototype Usability Tests
 4. High-Fidelity Prototye Usability Tests
 
-*(Individual write-ups on these research methods are found under the Research directory)*
+### *(Individual write-ups on these research methods are found under the [Research Directory](/Research) )*
 
 Through the research, I believe it has made for a better product overall. Having user input for a product built for THEM makes the project even more special.
 
